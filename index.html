@@ -183,6 +183,7 @@
   @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn,.pick{transition:none}}
 
   @media (max-width:860px){
+    #edit .plans{grid-template-columns:1fr!important}
     section{padding:60px 0}
     .choose,.why{grid-template-columns:1fr}
     .steps{grid-template-columns:1fr 1fr}
@@ -236,7 +237,7 @@
     <div class="hero-facts">
       <div><b class="en">৳3,500</b><span>থেকে শুরু, প্রতি রিল</span></div>
       <div><b class="en">3–7</b><span>কর্মদিবসে রিল হাতে পাবেন</span></div>
-      <div><b class="en">50%</b><span>অগ্রিম, বাকিটা ভিডিও পাওয়ার পর</span></div>
+      <div><b class="en">৳0</b><span>অগ্রিম, যতক্ষণ না স্ক্রিপ্ট পছন্দ হয়</span></div>
     </div>
   </div>
 </section>
@@ -268,7 +269,7 @@
       <a class="pick" href="#edit">
         <span class="q">আমার দরকার</span>
         <h3>নিজের কথা বলা ভিডিও আছে, শুধু সুন্দর করে এডিট</h3>
-        <div class="ans"><span>ভিডিও এডিট</span><b>৳2,500</b></div>
+        <div class="ans"><span>Motion এডিট</span><b>৳4,500</b></div>
         <span class="go">এডিটের দাম দেখুন ↓</span>
       </a>
     </div>
@@ -366,34 +367,42 @@
   <div class="wrap">
     <div class="kicker">আপনার নিজের ভিডিও</div>
     <h2>নিজে কথা বলে ভিডিও করেছেন? এডিট আমরা করে দেব</h2>
-    <p class="lead">মোবাইলে নিজের কণ্ঠে বা ক্যামেরার সামনে কথা বলে ভিডিও করুন, পাঠিয়ে দিন। আমরা সেটাকে গোছানো, দেখার মতো রিল বানিয়ে দেব। স্ক্রিপ্ট বা ভয়েস-ওভার লাগবে না, কণ্ঠ আপনার নিজের।</p>
-    <div class="split">
-      <div class="box">
-        <h3>এডিটে যা থাকবে</h3>
-        <ul>
-          <li>বাড়তি অংশ, ভুল আর লম্বা বিরতি কেটে বাদ</li>
-          <li>পুরো কথার লেখা (সাবটাইটেল), শব্দের সাথে মিলিয়ে<small>অনেকে সাউন্ড বন্ধ রেখে ভিডিও দেখে, তারাও বুঝবে।</small></li>
-          <li>জরুরি কথাগুলো বড় লেখা আর মোশনে</li>
-          <li>কণ্ঠ পরিষ্কার করা, পেছনের শব্দ কমানো</li>
-          <li>রং ঠিক করা, শেষে লোগো আর যোগাযোগের নম্বর</li>
-        </ul>
-      </div>
-      <div class="plan feat" style="padding:30px 26px">
-        <div class="name">ভিডিও এডিট</div>
-        <div class="plain" style="min-height:0">আপনার ভিডিও, আপনার কণ্ঠ। আমরা শুধু ঝকঝকে করে দেব।</div>
-        <div class="price">৳2,500</div>
+    <p class="lead">মোবাইলে নিজের কণ্ঠে বা ক্যামেরার সামনে কথা বলে ভিডিও করুন, পাঠিয়ে দিন। কণ্ঠ আপনার নিজের, আমরা সেটাকে দেখার মতো রিল বানিয়ে দেব।</p>
+    <div class="plans" style="grid-template-columns:repeat(2,1fr);max-width:820px">
+      <div class="plan">
+        <div class="name">Basic এডিট</div>
+        <div class="plain">গোছানো, পরিষ্কার ভিডিও, সাথে সাবটাইটেল।</div>
+        <div class="price">৳3,000</div>
         <div class="per">প্রতি ভিডিও</div>
         <ul>
-          <li><span>তৈরি ভিডিওর দৈর্ঘ্য</span><span>৬০ সেকেন্ড পর্যন্ত</span></li>
-          <li><span>যে ভিডিও পাঠাবেন</span><span>১০ মিনিট পর্যন্ত</span></li>
-          <li><span>বিনামূল্যে পরিবর্তন</span><span>২ বার</span></li>
-          <li><span>হাতে পাবেন</span><span>৩ কর্মদিবসে</span></li>
-          <li><span>মাসে ৪টি একসাথে</span><span>৳8,500</span></li>
+          <li><span>বাড়তি অংশ, ভুল আর বিরতি কাটা</span><span>আছে</span></li>
+          <li><span>কণ্ঠ পরিষ্কার, রং ঠিক করা</span><span>আছে</span></li>
+          <li><span>সাবটাইটেল (হাতে মিলিয়ে দেখা)</span><span>সাধারণ</span></li>
+          <li><span>শুরুর হুক, মোশনে জরুরি তথ্য</span><span class="no">নেই</span></li>
+          <li><span>শেষে লোগো ও নম্বর</span><span>আছে</span></li>
+          <li><span>মাসে ৪টি একসাথে</span><span>৳10,500</span></li>
         </ul>
-        <a class="btn btn-copper" href="https://wa.me/8801346074720?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0%20%E0%A6%A8%E0%A6%BF%E0%A6%9C%E0%A7%87%E0%A6%B0%20%E0%A6%AD%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%93%20%E0%A6%8F%E0%A6%A1%E0%A6%BF%E0%A6%9F%20%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87">ভিডিও পাঠাতে চাই</a>
+        <a class="btn btn-line" href="https://wa.me/8801346074720?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20Basic%20%E0%A6%AD%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%93%20%E0%A6%8F%E0%A6%A1%E0%A6%BF%E0%A6%9F%20%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87">Basic এডিট নিন</a>
+      </div>
+      <div class="plan feat">
+        <span class="badge">আমাদের পরামর্শ</span>
+        <div class="name">Motion এডিট</div>
+        <div class="plain">কথার সাথে সাথে লেখা নড়বে, জরুরি তথ্য মোশনে। দেখতে প্রিমিয়াম।</div>
+        <div class="price">৳4,500</div>
+        <div class="per">প্রতি ভিডিও</div>
+        <ul>
+          <li><span>বাড়তি অংশ, ভুল আর বিরতি কাটা</span><span>আছে</span></li>
+          <li><span>কণ্ঠ পরিষ্কার, রং ঠিক করা</span><span>আছে</span></li>
+          <li><span>সাবটাইটেল (হাতে মিলিয়ে দেখা)</span><span>মোশন ক্যাপশন</span></li>
+          <li><span>শুরুর হুক, মোশনে জরুরি তথ্য</span><span>আছে</span></li>
+          <li><span>শেষে লোগো ও নম্বর</span><span>আছে</span></li>
+          <li><span>মাসে ৪টি একসাথে</span><span>৳16,000</span></li>
+        </ul>
+        <div class="nudge">দাম, ঠিকানা, অফার, যা বলবেন সেটাই স্ক্রিনে মোশনে ভেসে উঠবে। সাউন্ড বন্ধ রেখেও দর্শক বুঝবে।</div>
+        <a class="btn btn-copper" href="https://wa.me/8801346074720?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20Motion%20%E0%A6%AD%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%93%20%E0%A6%8F%E0%A6%A1%E0%A6%BF%E0%A6%9F%20%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87">Motion এডিট নিন</a>
       </div>
     </div>
-    <p class="note">৬০ সেকেন্ডের বেশি লম্বা ভিডিও (যেমন YouTube-এর জন্য) হলে, ভিডিও দেখে দাম জানিয়ে দেব।</p>
+    <p class="note">দুটোতেই: তৈরি ভিডিও ৬০ সেকেন্ড পর্যন্ত, পাঠানো ভিডিও ৫ মিনিট পর্যন্ত, ২ বার বিনামূল্যে পরিবর্তন, ৩ কর্মদিবসে ডেলিভারি। এর চেয়ে লম্বা ভিডিও হলে দেখে দাম জানাব।</p>
   </div>
 </section>
 
@@ -454,6 +463,7 @@
         <a class="btn btn-line" href="https://wa.me/8801346074720?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20Pro%20%E0%A6%AA%E0%A7%87%E0%A6%9C%20%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%9C%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%20%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87%20%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87">Pro নিন</a>
       </div>
     </div>
+    <p class="explain">নতুন হলে চিন্তা নেই: <b>প্রথম মাস ট্রায়াল হিসেবে নিন।</b> ফল দেখে পছন্দ হলে তবেই ৩ মাসের চুক্তি।</p>
     <p class="note">* বিজ্ঞাপন আমরা সেট করে চালু করে দেব। বিজ্ঞাপনের টাকা (যা Facebook-কে দিতে হয়) আলাদা, আপনি সরাসরি দেবেন।</p>
   </div>
 </section>
@@ -479,8 +489,8 @@
     <div class="kicker">কাজের ধাপ</div>
     <h2>কাজ যেভাবে এগোবে</h2>
     <div class="steps">
-      <div class="step"><h3>তথ্য পাঠান</h3><p>ছবি, ভিডিও আর তথ্য WhatsApp-এ পাঠান, সাথে ৫০% অগ্রিম।</p></div>
-      <div class="step"><h3>স্ক্রিপ্ট দেখুন</h3><p>রিলে কী বলা হবে, আগে লিখে পাঠাব। আপনি ঠিক বললে তবেই কাজ শুরু।</p></div>
+      <div class="step"><h3>তথ্য পাঠান</h3><p>ছবি, ভিডিও আর তথ্য WhatsApp-এ পাঠান। এখনই কোনো টাকা লাগবে না।</p></div>
+      <div class="step"><h3>স্ক্রিপ্ট দেখুন</h3><p>রিলে কী বলা হবে, লিখে পাঠাব। পছন্দ হলে ৫০% অগ্রিম দিন, তারপর কাজ শুরু।</p></div>
       <div class="step"><h3>রিল তৈরি</h3><p>কণ্ঠ, মোশন আর সাউন্ড মিলিয়ে রিল বানানো হবে।</p></div>
       <div class="step"><h3>দেখে নিন</h3><p>পছন্দ না হলে পরিবর্তন জানান। ঠিক হলে বাকি টাকা দিয়ে ভিডিও নিন।</p></div>
     </div>
@@ -519,9 +529,9 @@
     <div class="kicker">টাকা ও নিয়ম</div>
     <h2>সহজ আর স্বচ্ছ নিয়ম</h2>
     <div class="terms">
-      <div><b>পেমেন্ট</b><span>৫০% অগ্রিম দিয়ে কাজ শুরু, বাকি ৫০% ভিডিও পাওয়ার সময়।</span></div>
+      <div><b>পেমেন্ট</b><span>স্ক্রিপ্ট পছন্দ হলে ৫০% অগ্রিম, বাকি ৫০% ভিডিও পাওয়ার সময়। ভিডিও এডিটে স্ক্রিপ্ট লাগে না, তাই ভিডিও পাঠানোর সময় ৫০%।</span></div>
       <div><b>কীভাবে দেবেন</b><span>bKash, Nagad বা ব্যাংক ট্রান্সফার। নম্বর WhatsApp-এ জানিয়ে দেব।</span></div>
-      <div><b>মাসিক প্যাকেজ</b><span>কমপক্ষে ৩ মাসের জন্য। প্রতি মাসের টাকা মাসের শুরুতে।</span></div>
+      <div><b>মাসিক প্যাকেজ</b><span>প্রথম মাস ট্রায়াল। পছন্দ হলে তারপর ৩ মাসের চুক্তি। প্রতি মাসের টাকা মাসের শুরুতে।</span></div>
       <div><b>সময় গোনা</b><span>সব তথ্য পাওয়া আর স্ক্রিপ্ট ঠিক হওয়ার পর থেকে দিন গোনা শুরু।</span></div>
     </div>
   </div>
